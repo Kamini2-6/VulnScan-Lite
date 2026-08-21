@@ -1,1 +1,32 @@
 
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environments
+venv/
+.env
+
+# Logs
+*.log
+
+# Celery/Redis artifacts
+celerybeat-schedule
+*.pid
+
+# React frontend
+node_modules/
+build/
+dist/
+
+# Reports
+reports/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
